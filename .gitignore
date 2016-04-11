@@ -1,4 +1,6 @@
 # Created by .ignore support plugin (hsz.mobi)
+/.idea
+/medieval-nlp.iml
 ### Windows template
 # Windows image file caches
 Thumbs.db

@@ -2,6 +2,7 @@ __author__ = 'Jacob Bieker'
 import os
 import nltk, re, pprint
 from nltk import word_tokenize
+from multiprocessing import Pool
 #nltk.download()
 
 
@@ -16,6 +17,11 @@ for filename in os.listdir(os.path.join("primary-sources")):
     with open(os.path.join("primary-sources", filename)) as text:
         raw_data = text.read()
         processed = ie_preprocess(raw_data)
+        print(processed[0])
+        tag_fd = nltk.FreqDist(tag for (word, tag) in processed)
+        print(filename)
+        print(tag_fd.most_common())
+        tag_fd.plot(cumulative=True)
         dict_of_texts[filename] = processed
 
 with open("outfile.txt", "w") as output:

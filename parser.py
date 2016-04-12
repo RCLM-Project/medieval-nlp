@@ -11,15 +11,15 @@ def ie_preprocess(document):
     sentences = [nltk.pos_tag(sent) for sent in sentences]
     return sentences
 
-annals_of_roger = open(os.path.join("primary-sources", "annalsofrogerdeh01hoveuoft_djvu.txt"))
-raw_rogers = annals_of_roger.read()
+dict_of_texts = {}
+for filename in os.listdir(os.path.join("primary-sources")):
+    with open(os.path.join("primary-sources", filename)) as text:
+        raw_data = text.read()
+        processed = ie_preprocess(raw_data)
+        dict_of_texts[filename] = processed
 
-itinerary_through_ireland = open(os.path.join("primary-sources", "itinerarythroug00girauoft_djvu.txt"))
-raw_ireland = itinerary_through_ireland.read()
 
-# NLTK testing
-processed_roger = ie_preprocess(raw_rogers)
-processed_ireland = ie_preprocess(raw_ireland)
+
 
 
 

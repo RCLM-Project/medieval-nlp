@@ -12,18 +12,27 @@ def ie_preprocess(document):
     sentences = [nltk.pos_tag(sent) for sent in sentences]
     return sentences
 
+
+def findtags(tag_prefix, tagged_text):
+    cfd = nltk.ConditionalFreqDist((tag, word) for (word, tag) in tagged_text
+                                   if tag.startswith(tag_prefix))
+    return dict((tag, cfd[tag].most_common(5)) for tag in cfd.conditions())
+
 dict_of_texts = {}
 dict_of_freq = {}
 for filename in os.listdir(os.path.join("primary-sources")):
     with open(os.path.join("primary-sources", filename)) as text:
         raw_data = text.read()
-        #processed = ie_preprocess(raw_data)
+        preprocessed = ie_preprocess(raw_data)
         processed_1 = nltk.word_tokenize(raw_data)
         processed = nltk.pos_tag(processed_1)
         print(processed[0])
         tag_fd = nltk.FreqDist(tag for (word, tag) in processed)
         print(tag_fd.most_common())
         #tag_fd.plot()
+        tagdict = findtags('NN', processed)
+        for tag in sorted(tagdict):
+            print(tag, tagdict[tag])
         dict_of_freq[filename] = tag_fd
         dict_of_texts[filename] = processed
 

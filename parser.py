@@ -18,7 +18,10 @@ for filename in os.listdir(os.path.join("primary-sources")):
         processed = ie_preprocess(raw_data)
         dict_of_texts[filename] = processed
 
-
+with open("outfile.txt", "w") as output:
+    for item in dict_of_texts:
+        print(item)
+        output.write('\n'.join('%s %s' % x for x in dict_of_texts[item]))
 
 
 

@@ -36,25 +36,45 @@ with open("outfile.txt", "w") as output:
                 tag_fd = nltk.FreqDist(tag for (word, tag) in processed)
                 fd = nltk.FreqDist(word for (word, tag) in processed)
                 print(tag_fd.tabulate())
-                raw_data.count("king")
+                king_count = raw_data.count("king") / len(processed)
+                army_count = raw_data.count("army") / len(processed)
+                print("King Percentage: " + str(king_count))
+                print("Army Percentage: " + str(army_count))
+                died_count = raw_data.count("died") / len(processed)
+                print("Died Percentage: " + str(died_count))
+                year_count = raw_data.count("year") / len(processed)
+                print("Year Percentage: " + str(year_count))
                 cfd1 = nltk.ConditionalFreqDist(processed)
                 print("King")
                 print(cfd1['king'].most_common())
                 print("Surrounding Text: ")
-                king_index = processed.index("king", "NN")
+                king_index = processed.index(("king", "NN"))
                 print(processed[king_index-4:king_index+4])
                 test_file = nltk.FreqDist(processed)
-                print([wt[0] for (wt, _) in test_file.most_common() if wt[1] == 'VB'])
+                print([wt[0] for (wt, _) in test_file.most_common(10) if wt[1] == 'VB'])
+
+                print("Following King")
+                tags = [b[1] for (a, b) in nltk.bigrams(processed) if a[0] == 'king']
+                fd = nltk.FreqDist(tags)
+                print(fd.tabulate())
+
                 #tag_fd.plot()
                 tagdict_nn = findtags('NN', processed)
                 for tag in sorted(tagdict_nn):
+                    print(tag, tagdict_nn[tag])
                     output.write(str(tag) + " ".join(str(s) for s in tagdict_nn[tag]) + "\n")
                 tagdict_pr = findtags('PR', processed)
                 for tag in sorted(tagdict_pr):
+                    print(tag, tagdict_pr[tag])
                     output.write(str(tag) + " ".join(str(s) for s in tagdict_pr[tag]) + "\n")
                 tagdict_jj = findtags('JJ', processed)
                 for tag in sorted(tagdict_jj):
+                    print(tag, tagdict_jj[tag])
                     output.write(str(tag) + " ".join(str(s) for s in tagdict_jj[tag]) + "\n")
+                    tagdict_vb = findtags('VB', processed)
+                for tag in sorted(tagdict_vb):
+                    print(tag, tagdict_vb[tag])
+                    output.write(str(tag) + " ".join(str(s) for s in tagdict_vb[tag]) + "\n")
                 dict_of_freq[filename] = tag_fd
                 dict_of_texts[filename] = processed
                 output.write("\n\n")

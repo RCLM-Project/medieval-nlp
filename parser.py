@@ -13,6 +13,7 @@ def ie_preprocess(document):
     return sentences
 
 dict_of_texts = {}
+dict_of_freq = {}
 for filename in os.listdir(os.path.join("primary-sources")):
     with open(os.path.join("primary-sources", filename)) as text:
         raw_data = text.read()
@@ -22,7 +23,8 @@ for filename in os.listdir(os.path.join("primary-sources")):
         print(processed[0])
         tag_fd = nltk.FreqDist(tag for (word, tag) in processed)
         print(tag_fd.most_common())
-        tag_fd.plot(cumulative=True)
+        #tag_fd.plot()
+        dict_of_freq[filename] = tag_fd
         dict_of_texts[filename] = processed
 
 with open("outfile.txt", "w") as output:

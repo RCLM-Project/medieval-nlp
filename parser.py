@@ -16,10 +16,11 @@ dict_of_texts = {}
 for filename in os.listdir(os.path.join("primary-sources")):
     with open(os.path.join("primary-sources", filename)) as text:
         raw_data = text.read()
-        processed = ie_preprocess(raw_data)
+        #processed = ie_preprocess(raw_data)
+        processed_1 = nltk.word_tokenize(raw_data)
+        processed = nltk.pos_tag(processed_1)
         print(processed[0])
         tag_fd = nltk.FreqDist(tag for (word, tag) in processed)
-        print(filename)
         print(tag_fd.most_common())
         tag_fd.plot(cumulative=True)
         dict_of_texts[filename] = processed

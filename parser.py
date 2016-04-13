@@ -37,7 +37,8 @@ with open("outfile.txt", "w") as output:
                 fd = nltk.FreqDist(word for (word, tag) in processed)
                 print(tag_fd.tabulate())
                 king_count = raw_data.lower().count("king") / len(processed)
-                army_count = (raw_data.lower().count("army") + raw_data.lower().count("troops")) / len(processed)
+                army_count = (raw_data.lower().count("army") + raw_data.lower().count("troops") +
+                              raw_data.lower().count("men")) / len(processed)
                 print("King Percentage: " + str(king_count))
                 print("Army Percentage: " + str(army_count))
                 died_count = raw_data.lower().count("died") / len(processed)
@@ -45,7 +46,9 @@ with open("outfile.txt", "w") as output:
                 year_count = (raw_data.lower().count("year") + raw_data.lower().count("time")) / len(processed)
                 print("Year Percentage: " + str(year_count))
                 godly_count = raw_data.lower().count("bishop") + raw_data.lower().count("god") \
-                              + raw_data.lower().count("church") + raw_data.lower().count("monks")
+                              + raw_data.lower().count("church") + raw_data.lower().count("monks") \
+                              + raw_data.lower().count("pope") + raw_data.lower().count("archbishop") \
+                              + raw_data.lower().count("priest")
                 godly_count /= len(processed)
                 print("Godly Percentage: " + str(godly_count))
                 family_count = raw_data.lower().count("brother") + raw_data.lower().count("son") + \

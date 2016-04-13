@@ -49,7 +49,8 @@ with open("outfile.txt", "w") as output:
                 godly_count = raw_data.lower().count("bishop") + raw_data.lower().count("god") \
                               + raw_data.lower().count("church") + raw_data.lower().count("monks") \
                               + raw_data.lower().count("pope") + raw_data.lower().count("archbishop") \
-                              + raw_data.lower().count("priest")
+                              + raw_data.lower().count("priest") + raw_data.lower().count("pray") \
+                              + raw_data.lower().count("prayer")
                 godly_count /= len(processed)
                 print("Godly Percentage: " + str(godly_count))
                 family_count = raw_data.lower().count("brother") + raw_data.lower().count("son") + \

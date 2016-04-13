@@ -36,12 +36,13 @@ with open("outfile.txt", "w") as output:
                 tag_fd = nltk.FreqDist(tag for (word, tag) in processed)
                 fd = nltk.FreqDist(word for (word, tag) in processed)
                 print(tag_fd.tabulate())
-                king_count = raw_data.lower().count("king") / len(processed)
+                king_count = (raw_data.lower().count("king") + raw_data.lower().count("kings")) / len(processed)
                 army_count = (raw_data.lower().count("army") + raw_data.lower().count("troops") +
                               raw_data.lower().count("men")) / len(processed)
                 print("King Percentage: " + str(king_count))
                 print("Army Percentage: " + str(army_count))
-                died_count = raw_data.lower().count("died") / len(processed)
+                died_count = (raw_data.lower().count("died") + raw_data.lower().count("slain")
+                              + raw_data.lower().count("death")) / len(processed)
                 print("Died Percentage: " + str(died_count))
                 year_count = (raw_data.lower().count("year") + raw_data.lower().count("time")) / len(processed)
                 print("Year Percentage: " + str(year_count))
@@ -63,8 +64,14 @@ with open("outfile.txt", "w") as output:
                 good_vs_bad_count /= len(processed)
                 print("Good vs bad Percentage: " + str(good_vs_bad_count))
 
-                roman_count = raw_data.lower().count("roman") / len(processed)
+                roman_count = raw_data.lower().count("roman") \
+                              / len(processed)
                 print("Roman Percentage: " + str(roman_count))
+
+                of_count = raw_data.lower().count("of") / len(processed)
+                print("Of Percentage: " + str(of_count))
+                in_count = raw_data.lower().count("in") / len(processed)
+                print("In Percentage: " + str(in_count))
                 cfd1 = nltk.ConditionalFreqDist(processed)
                 print("King")
                 print(cfd1['king'].most_common())
@@ -92,10 +99,14 @@ with open("outfile.txt", "w") as output:
                 for tag in sorted(tagdict_jj):
                     print(tag, tagdict_jj[tag])
                     output.write(str(tag) + " ".join(str(s) for s in tagdict_jj[tag]) + "\n")
-                    tagdict_vb = findtags('VB', processed)
+                tagdict_vb = findtags('VB', processed)
                 for tag in sorted(tagdict_vb):
                     print(tag, tagdict_vb[tag])
                     output.write(str(tag) + " ".join(str(s) for s in tagdict_vb[tag]) + "\n")
+                tagdict_in = findtags('IN', processed)
+                for tag in sorted(tagdict_in):
+                    print(tag, tagdict_in[tag])
+                    output.write(str(tag) + " ".join(str(s) for s in tagdict_in[tag]) + "\n")
                 dict_of_freq[filename] = tag_fd
                 dict_of_texts[filename] = processed
                 output.write("\n\n")

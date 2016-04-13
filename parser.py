@@ -36,14 +36,32 @@ with open("outfile.txt", "w") as output:
                 tag_fd = nltk.FreqDist(tag for (word, tag) in processed)
                 fd = nltk.FreqDist(word for (word, tag) in processed)
                 print(tag_fd.tabulate())
-                king_count = raw_data.count("king") / len(processed)
-                army_count = raw_data.count("army") / len(processed)
+                king_count = raw_data.lower().count("king") / len(processed)
+                army_count = (raw_data.lower().count("army") + raw_data.lower().count("troops")) / len(processed)
                 print("King Percentage: " + str(king_count))
                 print("Army Percentage: " + str(army_count))
-                died_count = raw_data.count("died") / len(processed)
+                died_count = raw_data.lower().count("died") / len(processed)
                 print("Died Percentage: " + str(died_count))
-                year_count = raw_data.count("year") / len(processed)
+                year_count = (raw_data.lower().count("year") + raw_data.lower().count("time")) / len(processed)
                 print("Year Percentage: " + str(year_count))
+                godly_count = raw_data.lower().count("bishop") + raw_data.lower().count("god") \
+                              + raw_data.lower().count("church") + raw_data.lower().count("monks")
+                godly_count /= len(processed)
+                print("Godly Percentage: " + str(godly_count))
+                family_count = raw_data.lower().count("brother") + raw_data.lower().count("son") + \
+                               raw_data.lower().count("daughter") + raw_data.lower().count("mother")
+                family_count /= len(processed)
+                print("Family Percentage: " + str(family_count))
+
+                good_vs_bad_count = raw_data.lower().count("good") + raw_data.lower().count("great") + \
+                                    raw_data.lower().count("best") + \
+                                    raw_data.lower().count("better") - raw_data.lower().count("worse") - \
+                                    raw_data.lower().count("bad")
+                good_vs_bad_count /= len(processed)
+                print("Good vs bad Percentage: " + str(good_vs_bad_count))
+
+                roman_count = raw_data.lower().count("roman") / len(processed)
+                print("Roman Percentage: " + str(roman_count))
                 cfd1 = nltk.ConditionalFreqDist(processed)
                 print("King")
                 print(cfd1['king'].most_common())

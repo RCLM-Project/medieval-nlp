@@ -6,6 +6,7 @@ from nltk import word_tokenize
 from multiprocessing import Pool
 #nltk.download()
 
+
 def ie_preprocess(document):
     sentences = nltk.sent_tokenize(document)
     sentences = [nltk.word_tokenize(sent) for sent in sentences]
@@ -30,15 +31,15 @@ dict_of_freq = {}
 with open("outfile.txt", "w") as output:
     for filename in os.listdir(os.path.join("primary-sources")):
         if filename == "Chronicle of Henry Huntingdon.txt" or "Anglo-Saxon Chronicle.txt":
-            with open(os.path.join("primary-sources", filename)) as text:
-                raw_data = text.read()
-                #preprocessed = ie_preprocess(raw_data)
+            with open(os.path.join("primary-sources", filename)) as nltk_text:
+                raw_data = nltk_text.read()
                 processed_2 = nltk.sent_tokenize(raw_data)
                 processed_1 = nltk.word_tokenize(raw_data)
                 processed = nltk.pos_tag(processed_1)
+                text = nltk.Text(ie_preprocess(raw_data))
+                text_lower = nltk.Text([word.lower() for word in ie_preprocess(raw_data)])
+                print(len(set(text)))
                 print(filename)
-                print(len(raw_data))
-                print(len(processed))
                 output.write(filename + "\n")
                 output.write("Num Characters: " + str(len(raw_data)) + "\n")
                 output.write("Num Words: " + str(len(processed)) + "\n")
@@ -47,16 +48,8 @@ with open("outfile.txt", "w") as output:
                 fd = nltk.FreqDist(word for (word, tag) in processed)
                 print(tag_fd.tabulate())
                 cfd1 = nltk.ConditionalFreqDist(processed)
-                print("King")
                 print(cfd1['king'].most_common())
-                print("Surrounding Text: ")
-                king_index = processed.index(("king", "NN"))
-                print(processed[king_index-4:king_index+4])
                 test_file = nltk.FreqDist(processed)
-                print([wt[0] for (wt, _) in test_file.most_common(10) if wt[1] == 'VB'])
-                print("Following King")
-                tags = [b[1] for (a, b, c) in nltk.trigrams(processed) if a[0] == 'king']
-                fd = nltk.FreqDist(tags)
                 print(fd.tabulate())
                 dict_of_freq[filename] = tag_fd
                 dict_of_texts[filename] = processed

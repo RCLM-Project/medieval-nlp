@@ -37,8 +37,7 @@ with open("outfile.txt", "w") as output:
                 processed_1 = nltk.word_tokenize(raw_data)
                 processed = nltk.pos_tag(processed_1)
                 text = nltk.Text(ie_preprocess(raw_data))
-                text_lower = nltk.Text([word.lower() for word in ie_preprocess(raw_data)])
-                print(len(set(text)))
+                #text_lower = nltk.Text(ie_preprocess([word.lower() for word in raw_data]))
                 print(filename)
                 output.write(filename + "\n")
                 output.write("Num Characters: " + str(len(raw_data)) + "\n")
@@ -58,9 +57,6 @@ with open("outfile.txt", "w") as output:
 
                 # After removing stopwords and punctuation
                 text1 = [w.lower() for w in processed_1 if w.isalpha() and not stopwords]
-                processed_2 = nltk.pos_tag(text1)
-                tag_fd = nltk.FreqDist(tag for (word, tag) in processed_2)
-                print(tag_fd.tabulate())
 
 
 

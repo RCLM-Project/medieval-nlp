@@ -21,13 +21,18 @@ def findtags(tag_prefix, tagged_text):
 
 
 def find_multiple_tags(tag_prefix_list, tagged_text):
+    big_tagdict = []
     for item in tag_prefix_list:
         tagdict = findtags(item, tagged_text)
         for tag in sorted(tagdict):
             print(tag, tagdict[tag])
+        big_tagdict.append(tagdict)
+    return big_tagdict
 
 dict_of_texts = {}
 dict_of_freq = {}
+total_words = 0
+total_sentences = 0
 with open("outfile.txt", "w") as output:
     for filename in os.listdir(os.path.join("primary-sources")):
         if filename == "Chronicle of Henry Huntingdon.txt" or "Anglo-Saxon Chronicle.txt":
@@ -42,7 +47,9 @@ with open("outfile.txt", "w") as output:
                 output.write(filename + "\n")
                 output.write("Num Characters: " + str(len(raw_data)) + "\n")
                 output.write("Num Words: " + str(len(processed)) + "\n")
+                total_words += len(processed)
                 output.write("Num Sentences: " + str(len(processed_2)) + "\n")
+                total_sentences += len(processed_2)
                 tag_fd = nltk.FreqDist(tag for (word, tag) in processed)
                 fd = nltk.FreqDist(word for (word, tag) in processed)
                 print(tag_fd.tabulate())
@@ -58,5 +65,5 @@ with open("outfile.txt", "w") as output:
                 # After removing stopwords and punctuation
                 text1 = [w.lower() for w in processed_1 if w.isalpha() and not stopwords]
 
-
-
+    output.write("Total words: " + str(total_words))
+    output.write("Total Sentences: " + str(total_sentences))

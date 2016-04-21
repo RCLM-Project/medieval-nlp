@@ -60,6 +60,14 @@ with open("outfile.txt", "w") as output:
                 dict_of_freq[filename] = tag_fd
                 dict_of_texts[filename] = processed
                 output.write("\n\n")
+                wanted_tags = ["NN", "JJ", "VB"]
+                tag_list = find_multiple_tags(wanted_tags, processed)
+                for item in tag_list:
+                    for tag in sorted(item):
+                        output.write(tag)
+                        output.write("\n")
+                        for inner_tag in tag:
+                            output.write(inner_tag)
 
 
                 # After removing stopwords and punctuation

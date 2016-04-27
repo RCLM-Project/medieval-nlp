@@ -1,5 +1,5 @@
 __author__ = 'Jacob Bieker'
-import os
+import os, sys
 import nltk, re, pprint
 from nltk.corpus import stopwords
 from nltk import word_tokenize
@@ -33,17 +33,19 @@ dict_of_texts = {}
 dict_of_freq = {}
 total_words = 0
 total_sentences = 0
+
+#sys.stdout = open("print-outfile.txt", "w")
 with open("outfile.txt", "w") as output:
     for filename in os.listdir(os.path.join("primary-sources")):
         if filename == "Chronicle of Henry Huntingdon.txt" or "Anglo-Saxon Chronicle.txt":
             with open(os.path.join("primary-sources", filename)) as nltk_text:
+                print(filename)
                 raw_data = nltk_text.read()
                 processed_2 = nltk.sent_tokenize(raw_data)
                 processed_1 = nltk.word_tokenize(raw_data)
                 processed = nltk.pos_tag(processed_1)
                 text = nltk.Text(ie_preprocess(raw_data))
                 #text_lower = nltk.Text(ie_preprocess([word.lower() for word in raw_data]))
-                print(filename)
                 output.write(filename + "\n")
                 output.write("Num Characters: " + str(len(raw_data)) + "\n")
                 output.write("Num Words: " + str(len(processed)) + "\n")
@@ -62,15 +64,8 @@ with open("outfile.txt", "w") as output:
                 output.write("\n\n")
                 wanted_tags = ["NN", "JJ", "VB"]
                 tag_list = find_multiple_tags(wanted_tags, processed)
-                for item in tag_list:
-                    for tag in sorted(item):
-                        output.write(tag)
-                        output.write("\n")
-                        for inner_tag in tag:
-                            output.write(inner_tag)
 
-
-                # After removing stopwords and punctuation
+                # After removing stopwords and punctuation do analysis again
                 text1 = [w.lower() for w in processed_1 if w.isalpha() and not stopwords]
 
     output.write("Total words: " + str(total_words))

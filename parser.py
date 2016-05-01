@@ -37,36 +37,34 @@ total_sentences = 0
 #sys.stdout = open("print-outfile.txt", "w")
 with open("outfile.txt", "w") as output:
     for filename in os.listdir(os.path.join("primary-sources")):
-        if filename == "Chronicle of Henry Huntingdon.txt" or "Anglo-Saxon Chronicle.txt":
-            with open(os.path.join("primary-sources", filename)) as nltk_text:
-                print(filename)
-                raw_data = nltk_text.read()
-                processed_2 = nltk.sent_tokenize(raw_data)
-                processed_1 = nltk.word_tokenize(raw_data)
-                processed = nltk.pos_tag(processed_1)
-                text = nltk.Text(ie_preprocess(raw_data))
-                #text_lower = nltk.Text(ie_preprocess([word.lower() for word in raw_data]))
-                output.write(filename + "\n")
-                output.write("Num Characters: " + str(len(raw_data)) + "\n")
-                output.write("Num Words: " + str(len(processed)) + "\n")
-                total_words += len(processed)
-                output.write("Num Sentences: " + str(len(processed_2)) + "\n")
-                total_sentences += len(processed_2)
-                tag_fd = nltk.FreqDist(tag for (word, tag) in processed)
-                fd = nltk.FreqDist(word for (word, tag) in processed)
-                print(tag_fd.tabulate())
-                cfd1 = nltk.ConditionalFreqDist(processed)
-                print(cfd1['king'].most_common())
-                test_file = nltk.FreqDist(processed)
-                print(fd.tabulate())
-                dict_of_freq[filename] = tag_fd
-                dict_of_texts[filename] = processed
-                output.write("\n\n")
-                wanted_tags = ["NN", "JJ", "VB"]
-                tag_list = find_multiple_tags(wanted_tags, processed)
-
-                # After removing stopwords and punctuation do analysis again
-                text1 = [w.lower() for w in processed_1 if w.isalpha() and not stopwords]
+        with open(os.path.join("primary-sources", filename)) as nltk_text:
+            print(filename)
+            raw_data = nltk_text.read()
+            # After removing stopwords and punctuation do analysis again
+            processed_2 = nltk.sent_tokenize(raw_data)
+            processed_1 = nltk.word_tokenize(raw_data)
+            processed = nltk.pos_tag(processed_1)
+            #text = nltk.Text(ie_preprocess(raw_data))
+            #text_lower = nltk.Text(ie_preprocess([word.lower() for word in raw_data]))
+            output.write(filename + "\n")
+            output.write("Num Characters: " + str(len(raw_data)) + "\n")
+            output.write("Num Words: " + str(len(processed)) + "\n")
+            total_words += len(processed)
+            output.write("Num Sentences: " + str(len(processed_2)) + "\n")
+            total_sentences += len(processed_2)
+            tag_fd = nltk.FreqDist(tag for (word, tag) in processed)
+            fd = nltk.FreqDist(word for (word, tag) in processed)
+            print(tag_fd.tabulate())
+            cfd1 = nltk.ConditionalFreqDist(processed)
+            print(cfd1['king'].most_common())
+            test_file = nltk.FreqDist(processed)
+            print(fd.tabulate())
+            print(test_file.tabulate())
+            dict_of_freq[filename] = tag_fd
+            dict_of_texts[filename] = processed
+            output.write("\n\n")
+            wanted_tags = ["NN", "JJ", "VB"]
+            tag_list = find_multiple_tags(wanted_tags, processed)
 
     output.write("Total words: " + str(total_words))
     output.write("Total Sentences: " + str(total_sentences))

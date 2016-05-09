@@ -59,6 +59,8 @@ with open("outfile.txt", "w") as output:
             output.write("\n\n")
             wanted_tags = ["NN", "JJ", "VB"]
             tag_list = find_multiple_tags(wanted_tags, processed)
+            king_count = (raw_data.lower().count("king") + raw_data.lower().count("kings")) / len(processed)
+            print("Ratio of King and kings to words: " + str(king_count))
             print("\n\n")
 
     output.write("Total words: " + str(total_words))

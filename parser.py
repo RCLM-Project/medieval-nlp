@@ -54,17 +54,12 @@ with open("outfile.txt", "w") as output:
             total_sentences += len(processed_2)
             tag_fd = nltk.FreqDist(tag for (word, tag) in processed)
             fd = nltk.FreqDist(word for (word, tag) in processed)
-            print(tag_fd.tabulate())
-            cfd1 = nltk.ConditionalFreqDist(processed)
-            print(cfd1['king'].most_common())
-            test_file = nltk.FreqDist(processed)
-            print(fd.tabulate())
-            print(test_file.tabulate())
             dict_of_freq[filename] = tag_fd
             dict_of_texts[filename] = processed
             output.write("\n\n")
             wanted_tags = ["NN", "JJ", "VB"]
             tag_list = find_multiple_tags(wanted_tags, processed)
+            print("\n\n")
 
     output.write("Total words: " + str(total_words))
     output.write("Total Sentences: " + str(total_sentences))

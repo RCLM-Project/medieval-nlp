@@ -29,6 +29,19 @@ def find_multiple_tags(tag_prefix_list, tagged_text):
         big_tagdict.append(tagdict)
     return big_tagdict
 
+
+def counting_words(word_list, tagged_text, nltk_text, nltk_processed):
+    for small_list in word_list:
+        word_count = 0
+        for word in small_list:
+            word_count += nltk_text.lower().count(word) / len(tagged_text)
+            print("Word: " + word)
+            print(nltk_processed.concordance(word))
+            print("Similar Words:")
+            print(nltk_processed.similar(word))
+        print("Similar Words To: " + str(small_list[0]))
+        print("Ratio to full text: " + str(word_count * 100))
+
 dict_of_texts = {}
 dict_of_freq = {}
 total_words = 0
@@ -40,6 +53,8 @@ with open("outfile.txt", "w") as output:
         with open(os.path.join("primary-sources", filename)) as nltk_text:
             print(filename)
             raw_data = nltk_text.read()
+            nltk_processed = nltk.Text(raw_data)
+            print(nltk_processed.collocations())
             # After removing stopwords and punctuation do analysis again
             processed_2 = nltk.sent_tokenize(raw_data)
             processed_1 = nltk.word_tokenize(raw_data)
@@ -59,8 +74,14 @@ with open("outfile.txt", "w") as output:
             output.write("\n\n")
             wanted_tags = ["NN", "JJ", "VB"]
             tag_list = find_multiple_tags(wanted_tags, processed)
-            king_count = (raw_data.lower().count("king") + raw_data.lower().count("kings")) / len(processed)
-            print("Ratio of King and kings to words: " + str(king_count))
+            interesting_words = [["king", "kings",],
+                                 ["queen", "queens"],
+                                 ["army", "military", "battle", "fight", "troops", "troop", "armies"],
+                                 ["church", "churches", "bishop", "bishops", "archbishop", "archbishops",
+                                  "priest", "priests", "clergy", "bible", "holy", "god"],
+                                 ["title", "earl", "king", "earls", "kings", "duke", "dukes", "regent", "regents",
+                                  "knight", "knights", "noble", "nobles", "lord", "lords"]]
+            counting_words(interesting_words, processed, raw_data, nltk_processed)
             print("\n\n")
 
     output.write("Total words: " + str(total_words))

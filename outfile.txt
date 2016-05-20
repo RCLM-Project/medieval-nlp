@@ -1,0 +1,97 @@
+The ecclesiastical history of England and Normandy Volume 4.txt
+Num Characters: 1369224
+Num Words: 301972
+Num Sentences: 24481
+
+
+The annals of Roger de Hoveden Volume 1.txt
+Num Characters: 1465947
+Num Words: 299859
+Num Sentences: 9286
+
+
+Florence of Worcester's Chroncile.txt
+Num Characters: 1226376
+Num Words: 255866
+Num Sentences: 11813
+
+
+The English conquest of Ireland.txt
+Num Characters: 468445
+Num Words: 108986
+Num Sentences: 5943
+
+
+Master Wace's Chronicle of the Norman Conquest.txt
+Num Characters: 427033
+Num Words: 89524
+Num Sentences: 3870
+
+
+Geoffery of Monmouth's British History.txt
+Num Characters: 552394
+Num Words: 111856
+Num Sentences: 5777
+
+
+The ecclesiastical history of England and Normandy Volume 3.txt
+Num Characters: 1260631
+Num Words: 247428
+Num Sentences: 9390
+
+
+Full The annals of Roger de Hoveden.txt
+Num Characters: 2888658
+Num Words: 603504
+Num Sentences: 17636
+
+
+The annals of Roger de Hoveden Volume 2.txt
+Num Characters: 1473697
+Num Words: 303781
+Num Sentences: 8351
+
+
+The ecclesiastical history of England and Normandy Volume 1.txt
+Num Characters: 1269829
+Num Words: 255997
+Num Sentences: 9851
+
+
+The ecclesiastical history of England and Normandy Volume 2.txt
+Num Characters: 1400093
+Num Words: 279622
+Num Sentences: 12488
+
+
+Chronicle of Henry Huntingdon.txt
+Num Characters: 1233900
+Num Words: 253003
+Num Sentences: 11534
+
+
+Anglo-Saxon Chronicle.txt
+Num Characters: 567466
+Num Words: 116019
+Num Sentences: 4600
+
+
+Hereward of Wake.txt
+Num Characters: 86042
+Num Words: 17098
+Num Sentences: 482
+
+
+William of Malmesbury's Chronicle of the Kings of England.txt
+Num Characters: 1405086
+Num Words: 282831
+Num Sentences: 9085
+
+
+Full The ecclesastical history of England.txt
+Num Characters: 5199853
+Num Words: 1084600
+Num Sentences: 56207
+
+
+Total words: 4611946Total Sentences: 200794

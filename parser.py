@@ -87,6 +87,8 @@ with open("outfile.txt", "w") as output:
                 wordcloud_make(new_raw, "henry", "huntingdon-pic.png")
             elif filename == "Anglo-Saxon Chronicle.txt":
                 wordcloud_make(new_raw, "saxon", "anglo-saxon-pic.png")
+            elif filename == "Hereward of Wake.txt":
+                wordcloud_make(new_raw, "monmouth", "monmouth-pic.png")
             nltk_processed = nltk.Text(raw_data)
             print(nltk_processed.collocations())
             # After removing stopwords and punctuation do analysis again

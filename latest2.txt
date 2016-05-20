@@ -1,0 +1,495 @@
+The ecclesiastical history of England and Normandy Volume 4.txt
+
+None
+NN [('ii', 2793), ('i', 2173), ('iii', 1865), ('iv', 1332), ('king', 924), ('son', 724), ('bishop', 695), ('count', 635), ('abbot', 446), ('death', 349)]
+NNP [('St.', 1346), ('William', 890), ('Henry', 668), ('Robert', 644), ('Evroult', 490), ('de', 440), ('I.', 399), ('England', 339), ('Pope', 331), ('Vol', 315)]
+NNPS [('Normans', 61), ('Mans', 42), ('Christians', 41), ('Pagans', 17), ('Epistles', 8), ('Danes', 7), ('Eomans', 7), ('Crusaders', 7), ('Sentences', 6), ('Homilies', 6)]
+NNS [('years', 164), ('monks', 164), ('afterwards', 140), ('people', 127), ('men', 105), ('lords', 98), ('arms', 95), ('vols', 92), ('others', 89), ('sons', 81)]
+JJ [('other', 300), ('great', 284), ('—', 262), ('first', 186), ('many', 179), ('same', 179), ('own', 138), ('last', 107), ('several', 104), ('^', 99)]
+JJR [('more', 47), ('better', 13), ('younger', 11), ('greater', 10), ('less', 8), ('older', 7), ('earlier', 6), ('frontier', 4), ('Richer', 4), ('father', 4)]
+JJS [('most', 30), ('best', 19), ('eldest', 18), ('greatest', 17), ('least', 15), ('highest', 12), ('Most', 7), ('lest', 6), ('honest', 5), ('slightest', 5)]
+VB [('be', 363), ('have', 155), ('^', 119), ('See', 116), (']', 81), ('*', 62), ('give', 47), ('take', 46), ('Pope', 46), ('make', 43)]
+VBD [('was', 1740), ('had', 576), ('were', 558), ('died', 313), ('made', 154), ('took', 117), ('gave', 104), ('said', 92), ('did', 77), ('held', 74)]
+VBG [('having', 232), ('being', 232), ('king', 85), ('according', 56), ('King', 54), ('taking', 37), ('giving', 30), ('following', 29), ('respecting', 28), ('ing', 25)]
+VBN [('been', 292), ('succeeded', 191), ('given', 162), ('made', 139), ('taken', 131), ('called', 108), ('besieged', 63), ('buried', 57), ('mentioned', 57), ('Translated', 54)]
+VBP [('are', 315), ('have', 255), ('see', 200), ('find', 58), ('am', 27), ('think', 21), ('—', 19), ('do', 16), ('know', 15), ('make', 13)]
+VBZ [('is', 1094), ('has', 206), ('gives', 82), ('takes', 80), ('appears', 68), ('goes', 68), ('makes', 65), ('^', 46), ('dies', 45), ('holds', 39)]
+Similar Words To: king
+Ratio to full text: 0.5301816062416382
+Similar Words To: queen
+Ratio to full text: 0.028479461671943096
+Similar Words To: army
+Ratio to full text: 0.16624057859669109
+Similar Words To: church
+Ratio to full text: 0.8822009987680978
+Similar Words To: title
+Ratio to full text: 1.0100274197607726
+Ngrams
+[]
+
+
+
+The annals of Roger de Hoveden Volume 1.txt
+
+None
+NN [('king', 2199), ('year', 1004), ('bishop', 814), ('son', 630), ('day', 626), ('archbishop', 486), ('earl', 443), ('lord', 418), ('church', 404), ('time', 376)]
+NNP [('England', 682), ('Saint', 514), ('God', 466), ('A.D.', 389), ('Henry', 369), ('Lord', 354), ('OF', 351), ('William', 341), ('DE', 286), ('Canterbury', 261)]
+NNPS [('Mercians', 50), ('Christians', 49), ('Danes', 43), ('Normans', 38), ('Romans', 27), ('Northumbrians', 26), ('Saxons', 20), ('Norwegians', 19), ('Picts', 6), ('Prophets', 6)]
+NNS [('men', 425), ('people', 283), ('bishops', 235), ('years', 224), ('things', 163), ('others', 160), ('persons', 153), ('calends', 144), ('churches', 131), ('days', 129)]
+JJ [('same', 670), ('other', 454), ('great', 363), ('many', 316), ('own', 308), ('such', 207), ('certain', 138), ('present', 132), ('above-named', 128), ('first', 128)]
+JJR [('more', 103), ('greater', 50), ('better', 22), ('less', 17), ('longer', 15), ('worse', 11), ('lower', 9), ('larger', 8), ('higher', 8), ('younger', 7)]
+JJS [('most', 95), ('greatest', 47), ('best', 31), ('lest', 24), ('manifest', 17), ('eldest', 16), ('least', 14), ('highest', 10), ('lowest', 6), ('largest', 4)]
+VB [('be', 1570), ('have', 277), ('make', 164), ('do', 149), ('give', 146), ('take', 115), ('come', 103), ('let', 101), ('say', 99), ('receive', 76)]
+VBD [('was', 2130), ('had', 1313), ('were', 831), ('said', 357), ('came', 244), ('made', 243), ('took', 241), ('gave', 199), ('did', 189), ('departed', 169)]
+VBG [('being', 762), ('king', 582), ('having', 445), ('according', 132), ('taking', 99), ('making', 81), ('coming', 62), ('going', 44), ('seeing', 43), ('giving', 42)]
+VBN [('been', 618), ('made', 310), ('called', 252), ('taken', 192), ('given', 135), ('received', 125), ('done', 122), ('slain', 116), ('succeeded', 105), ('buried', 83)]
+VBP [('are', 542), ('have', 516), ('do', 245), ('say', 42), ('am', 37), ('believe', 21), ('know', 19), ('see', 17), ('make', 16), ('call', 14)]
+VBZ [('is', 1306), ('has', 429), ('says', 114), ('does', 51), ('seems', 50), ('gives', 21), ('appears', 18), ('makes', 18), ('calls', 17), ('means', 15)]
+Similar Words To: king
+Ratio to full text: 1.2926075255370024
+Similar Words To: queen
+Ratio to full text: 0.024011285304092925
+Similar Words To: army
+Ratio to full text: 0.20142800449544618
+Similar Words To: church
+Ratio to full text: 1.6024198039745343
+Similar Words To: title
+Ratio to full text: 2.1089912258761614
+Ngrams
+[]
+
+
+
+Florence of Worcester's Chroncile.txt
+
+None
+NN [('king', 1905), ('bishop', 1161), (']', 746), ('son', 698), ('death', 681), ('ib', 607), ('year', 525), ('a.d', 437), ('archbishop', 387), ('earl', 342)]
+NNP [('St.', 879), ('England', 735), ('[', 577), (']', 569), ('William', 350), ('Henry', 342), ('OF', 280), ('John', 265), ('London', 249), ('Canterbury', 248)]
+NNPS [('Pagans', 112), ('Mercians', 62), ('Danes', 45), ('Christians', 44), ('Northumbrians', 36), ('Romans', 32), ('Normans', 24), ('Names', 22), ('Picts', 14), ('Jews', 14)]
+NNS [('calends', 291), ('years', 238), ('men', 183), ('bishops', 168), ('people', 167), ('others', 154), ('afterwards', 154), ('days', 153), ('kings', 141), ('ides', 140)]
+JJ [('[', 501), ('great', 336), ('same', 300), ('many', 260), (']', 220), ('other', 209), ('own', 185), ('first', 146), ('a.D.', 122), ('tlie', 119)]
+JJR [('more', 51), ('greater', 17), ('younger', 16), ('better', 9), ('lower', 8), ('less', 6), ('longer', 6), ('larger', 6), ('worse', 5), ('stronger', 4)]
+JJS [('eldest', 40), ('most', 37), ('greatest', 28), ('best', 21), ('highest', 11), ('least', 8), ('youngest', 5), ('priest', 5), ('nearest', 4), ('largest', 3)]
+VB [(']', 617), ('be', 503), ('[', 224), ('have', 108), ('See', 58), ('^', 57), ('make', 53), ('take', 48), ('give', 41), ('do', 38)]
+VBD [('was', 2501), ('had', 757), ('were', 754), ('died', 417), ('[', 211), ('made', 190), ('took', 163), ('came', 151), ('went', 151), ('gave', 128)]
+VBG [('king', 560), ('being', 425), ('having', 409), ('according', 87), ('making', 42), ('taking', 39), ('leaving', 36), ('following', 33), ('Having', 32), ('respecting', 30)]
+VBN [('been', 304), ('called', 208), ('succeeded', 188), ('made', 164), ('taken', 151), ('buried', 121), ('consecrated', 105), ('slain', 98), ('elected', 88), ('given', 84)]
+VBP [('[', 174), ('are', 129), ('have', 119), ('see', 66), ('do', 15), (']', 11), ('say', 10), ('^', 9), ('earl', 8), ('find', 8)]
+VBZ [('is', 393), ('goes', 79), ('has', 75), ('takes', 44), ('defeats', 36), ('[', 35), ('makes', 31), ('gives', 30), ('succeeds', 29), ('says', 24)]
+Similar Words To: king
+Ratio to full text: 1.3526611585751918
+Similar Words To: queen
+Ratio to full text: 0.07699342624655092
+Similar Words To: army
+Ratio to full text: 0.34119421884892875
+Similar Words To: church
+Ratio to full text: 1.4972681012717597
+Similar Words To: title
+Ratio to full text: 1.9686085685475987
+Ngrams
+[]
+
+
+
+The English conquest of Ireland.txt
+
+None
+NN [('hym', 464), ('ham', 391), ('e', 336), ('kynge', 255), ('thay', 254), ('man', 218), ('al', 206), ('sb', 191), ('hys', 179), ('yn', 126)]
+NNP [('>', 431), ('^', 251), ('MS.', 198), (']', 193), ('<', 192), ('J', 180), ('[', 153), ('Irland', 150), ('*', 130), ('Robert', 115)]
+NNPS [('Geraudynes', 3), ('Erles', 2), ('Sonnes', 2), ('Citteseynes', 1), ('Fletes', 1), ('Cyttes', 1), ("Pere'is", 1), ('Lferaudines', 1), ('Scries', 1), ('Robers', 1)]
+NNS [('men', 342), ('kynges', 71), ('knyghtes', 61), ('pees', 52), ('hors', 50), ('comen', 31), ('fomen', 27), ('londes', 25), ('bowmen', 18), ('natheles', 15)]
+JJ [('many', 206), ('[', 178), ('good', 154), ('thay', 154), ('f', 117), ('al', 113), ('ne', 97), ('grete', 88), ('ful', 84), ('hys', 83)]
+JJR [('more', 62), ('wer', 30), ('better', 7), ('y', 5), ('hym', 4), ('less', 3), ('lenger', 3), ('ynto', 3), ('hadd', 2), ('slower', 2)]
+JJS [('most', 26), ('best', 14), ('formest', 7), ('eldest', 5), ('est', 4), ('heghest', 4), ('leynest', 3), ('highest', 3), ('kest', 3), ('mych', 2)]
+VB [('be', 268), ('hym', 134), ('come', 119), (']', 92), ('ham', 59), ('al', 48), ('hys', 47), ('take', 45), ('do', 36), ('thay', 30)]
+VBD [('was', 1033), ('had', 129), ('went', 98), ('were', 86), ('myght', 73), ('turned', 63), ('shold', 51), ('toke', 46), ('sent', 45), ('wold', 43)]
+VBG [('being', 8), ('keeping', 2), ('speaking', 2), ('missing', 2), ('having', 2), ('looking', 2), ('coming', 2), ('taking', 2), ('aiming', 1), ('king', 1)]
+VBN [('come', 61), ('done', 45), ('made', 23), ('left', 16), ('hit', 13), ('given', 10), ('taken', 9), ('set', 9), ('built', 8), ('broght', 8)]
+VBP [('come', 62), ('>', 34), ('are', 34), ('do', 32), ('al', 30), ('yn', 21), ('wyth', 20), ('thay', 19), ('ben', 18), ('hym', 15)]
+VBZ [('is', 240), ('al', 39), ('has', 34), ('e', 31), ('thay', 31), ('yn', 28), ('goes', 27), ('ne', 22), ('hadde', 21), ('wolde', 17)]
+Similar Words To: king
+Ratio to full text: 0.059640687794762635
+Similar Words To: queen
+Ratio to full text: 0.0018350980859926963
+Similar Words To: army
+Ratio to full text: 0.05046519736479915
+Similar Words To: church
+Ratio to full text: 0.2541610849099884
+Similar Words To: title
+Ratio to full text: 0.187180004771255
+Ngrams
+[]
+
+
+
+Master Wace's Chronicle of the Norman Conquest.txt
+
+None
+NN [('duke', 185), ('king', 150), ('son', 116), ('mil', 113), ('lord', 108), ('name', 88), ('battle', 87), ('i', 80), ('man', 80), ('sire', 78)]
+NNP [('William', 342), ('THE', 248), ('Harold', 176), ('Wace', 134), ('CONQUEST', 127), ('CHRONICLE', 125), ('de', 112), ('St.', 101), ('English', 97), ('England', 92)]
+NNPS [('Normans', 89), ('Mans', 7), ('Danes', 4), ('Coutances', 3), ('Argences', 2), ('English', 2), ('OF', 2), ('Haies', 2), ('Latin', 1), ("'Normans", 1)]
+NNS [('men', 168), ('barons', 84), ('knights', 66), ('people', 58), ('lands', 48), ('ships', 41), ('arms', 35), ('others', 32), ('afterwards', 32), ('lords', 28)]
+JJ [('great', 174), ('many', 170), ('other', 138), ('good', 83), ('such', 52), ('much', 48), ('same', 45), ('French', 42), ('own', 42), ('dead', 36)]
+JJR [('more', 43), ('better', 10), ('earlier', 9), ('greater', 7), ('worse', 4), ('less', 3), ('yonder', 3), ('younger', 3), ('larger', 2), ('father', 2)]
+JJS [('best', 24), ('est', 21), ('least', 11), ('most', 10), ('greatest', 9), ('inquest', 7), ('conquest', 4), ('lest', 4), ('eldest', 4), ('nearest', 3)]
+VB [('be', 323), ('have', 168), ('see', 75), ('do', 55), ('go', 44), ('See', 41), ('take', 39), ('give', 39), ('come', 26), ('let', 26)]
+VBD [('was', 674), ('had', 420), ('were', 270), ('said', 148), ('came', 99), ('did', 78), ('took', 63), ('saw', 52), ('made', 49), ('went', 48)]
+VBG [('being', 62), ('king', 46), ('having', 43), ('according', 24), ('ing', 21), ('making', 14), ('bearing', 13), ('According', 11), ('concerning', 11), ('doing', 10)]
+VBN [('been', 148), ('seen', 53), ('done', 43), ('called', 42), ('given', 39), ('taken', 38), ('made', 37), ('found', 30), ('come', 29), ('known', 29)]
+VBP [('are', 144), ('have', 138), ('know', 48), ('do', 37), ('see', 28), ('find', 28), ('say', 22), ('am', 12), ('e', 9), ('tell', 9)]
+VBZ [('is', 431), ('has', 85), ('says', 39), ('appears', 36), ('seems', 34), ('les', 19), ('comes', 18), ('does', 16), ('le', 15), ('li', 14)]
+Similar Words To: king
+Ratio to full text: 0.41776506858496043
+Similar Words To: queen
+Ratio to full text: 0.006702113399758724
+Similar Words To: army
+Ratio to full text: 0.2580313658907109
+Similar Words To: church
+Ratio to full text: 0.2714355926902283
+Similar Words To: title
+Ratio to full text: 1.2946249050533933
+Ngrams
+[]
+
+
+
+Geoffery of Monmouth's British History.txt
+
+None
+NN [('king', 369), ('kingdom', 199), ('time', 183), ('CHAPTER', 163), ('country', 162), ('ib', 153), ('battle', 131), ('city', 112), ('island', 106), ('army', 103)]
+NNP [('Britain', 297), ('OF', 202), ('Chap', 201), ('Arthur', 177), ('THE', 171), ('Britons', 158), ('HISTORY', 128), ('MONMOUTH', 118), ('III', 115), ('GEOFFREY', 103)]
+NNPS [('Romans', 118), ('Britons', 31), ('Trojans', 22), ('Saxons', 22), ('Picts', 19), ('Constans', 14), ('Christians', 10), ('Dacians', 10), ('Norwegians', 9), ('Africans', 9)]
+NNS [('men', 200), ('people', 148), ('kings', 80), ('forces', 74), ('cities', 63), ('years', 54), ('others', 53), ('ships', 50), ('arms', 44), ('enemies', 39)]
+JJ [('great', 249), ('other', 185), ('own', 96), ('last', 94), ('whole', 93), ('many', 84), ('such', 73), ('same', 73), ('ancient', 65), ('several', 65)]
+JJR [('more', 48), ('greater', 35), ('better', 19), ('less', 13), ('longer', 9), ('lesser', 5), ('worse', 4), ('whither', 3), ('larger', 3), ('higher', 3)]
+JJS [('greatest', 22), ('most', 14), ('eldest', 13), ('least', 12), ('best', 8), ('nest', 5), ('lest', 5), ('bravest', 4), ('youngest', 4), ('noblest', 3)]
+VB [('be', 453), ('have', 91), ('make', 89), ('—', 72), ('give', 53), ('come', 43), ('take', 40), ('do', 31), ('go', 31), ('meet', 29)]
+VBD [('was', 856), ('had', 614), ('were', 362), ('made', 207), ('came', 99), ('went', 80), ('gave', 73), ('did', 72), ('began', 70), ('took', 68)]
+VBG [('being', 210), ('having', 111), ('seeing', 28), ('coming', 27), ('according', 27), ('concerning', 23), ('making', 21), ('finding', 18), ('Being', 18), ('taking', 17)]
+VBN [('killed', 120), ('made', 107), ('been', 97), ('called', 70), ('taken', 63), ('done', 45), ('given', 38), ('brought', 31), ('come', 29), ('named', 28)]
+VBP [('have', 127), ('are', 113), ('do', 36), ('am', 19), ('make', 12), ('see', 9), ('think', 8), ('leave', 7), ('whereof', 7), ('give', 6)]
+VBZ [('is', 324), ('Is', 60), ('has', 58), ('kills', 23), ('makes', 20), ('gives', 15), ('desires', 8), ('succeeds', 8), ('falls', 8), ('brings', 7)]
+Similar Words To: king
+Ratio to full text: 0.9029466456873123
+Similar Words To: queen
+Ratio to full text: 0.018774138177656986
+Similar Words To: army
+Ratio to full text: 0.3710127306536976
+Similar Words To: church
+Ratio to full text: 0.2682019739665284
+Similar Words To: title
+Ratio to full text: 1.0853239879845518
+Ngrams
+[]
+
+
+
+The ecclesiastical history of England and Normandy Volume 3.txt
+
+None
+NN [('king', 769), ('count', 390), ('son', 382), ('time', 330), ('name', 290), ('city', 274), ('place', 273), ('bishop', 260), ('author', 255), ('church', 244)]
+NNP [('William', 532), ('^', 475), ('St.', 469), ('Henry', 347), ('Robert', 265), ('de', 263), ('God', 257), ('Normandy', 251), ('England', 237), ('King', 218)]
+NNPS [('Christians', 198), ('Normans', 52), ('Mans', 35), ('Turks', 31), ('Pagans', 30), ('Crusaders', 19), ('Syrians', 14), ('Armenians', 12), ('Germans', 7), ('Mussulmans', 6)]
+NNS [('troops', 228), ('years', 219), ('people', 204), ('arms', 155), ('men', 144), ('others', 133), ('afterwards', 126), ('days', 120), ('monks', 115), ('knights', 107)]
+JJ [('great', 476), ('other', 451), ('many', 259), ('own', 214), ('same', 193), ('first', 177), ('several', 129), ('long', 124), ('such', 118), ('last', 112)]
+JJR [('more', 77), ('better', 20), ('greater', 20), ('less', 19), ('worse', 12), ('younger', 12), ('longer', 7), ('lower', 6), ('stronger', 3), ('richer', 2)]
+JJS [('eldest', 48), ('most', 33), ('greatest', 25), ('least', 23), ('lest', 19), ('best', 18), ('highest', 11), ('youngest', 10), ('deepest', 7), ('bravest', 6)]
+VB [('be', 589), ('have', 269), ('^', 182), (']', 143), ('*', 112), ('make', 83), ('take', 74), ('give', 72), ('See', 71), ('find', 61)]
+VBD [('was', 2447), ('were', 1084), ('had', 1012), ('made', 208), ('took', 195), ('died', 194), ('gave', 176), ('did', 174), ('said', 127), ('fell', 102)]
+VBG [('having', 409), ('being', 345), ('according', 80), ('making', 68), ('King', 57), ('taking', 55), ('Having', 53), ('giving', 49), ('following', 47), ('king', 44)]
+VBN [('been', 417), ('given', 130), ('taken', 125), ('called', 121), ('made', 103), ('received', 78), ('mentioned', 67), ('seen', 57), ('known', 54), ('engaged', 49)]
+VBP [('are', 339), ('have', 314), ('do', 41), ('see', 38), ('am', 35), ('—', 33), ('find', 32), ('know', 26), ('^', 26), ('[', 21)]
+VBZ [('is', 854), ('has', 220), ('appears', 108), ('^', 39), ('says', 39), ('does', 35), ('seems', 30), ('calls', 25), ('stands', 19), ('means', 19)]
+Similar Words To: king
+Ratio to full text: 0.6135118094960959
+Similar Words To: queen
+Ratio to full text: 0.013741371227185281
+Similar Words To: army
+Ratio to full text: 0.38637502627026854
+Similar Words To: church
+Ratio to full text: 0.697172510791018
+Similar Words To: title
+Ratio to full text: 1.3337213249915125
+Ngrams
+[]
+
+
+
+Full The annals of Roger de Hoveden.txt
+
+None
+NN [('king', 5298), ('bishop', 1711), ('year', 1494), ('day', 1428), ('archbishop', 1158), ('lord', 1027), ('son', 939), ('earl', 831), ('church', 779), ('time', 710)]
+NNP [('England', 1950), ('Saint', 1059), ('God', 879), ('France', 793), ('Lord', 788), ('A.D.', 776), ('OF', 771), ('William', 725), ('Henry', 588), ('John', 554)]
+NNPS [('Christians', 154), ('Romans', 104), ('Mercians', 50), ('Danes', 44), ('Normans', 40), ('Germans', 28), ('Northumbrians', 26), ('Saxons', 21), ('Eomans', 20), ('Norwegians', 19)]
+NNS [('men', 735), ('people', 584), ('bishops', 450), ('persons', 354), ('things', 335), ('others', 325), ('years', 308), ('hands', 300), ('kings', 263), ('days', 258)]
+JJ [('same', 1631), ('other', 987), ('many', 640), ('great', 604), ('own', 600), ('such', 481), ('present', 244), ('following', 244), ('first', 243), ('certain', 243)]
+JJR [('more', 192), ('greater', 94), ('better', 35), ('less', 26), ('longer', 24), ('higher', 18), ('worse', 15), ('lower', 14), ('younger', 13), ('larger', 12)]
+JJS [('most', 135), ('greatest', 71), ('best', 54), ('lest', 46), ('least', 41), ('eldest', 23), ('manifest', 22), ('highest', 19), ('est', 11), ('priest', 11)]
+VB [('be', 3376), ('have', 661), ('make', 412), ('give', 311), ('do', 291), ('take', 263), ('come', 250), ('say', 188), ('let', 186), ('receive', 176)]
+VBD [('was', 3533), ('had', 2741), ('were', 1480), ('said', 1439), ('came', 565), ('made', 561), ('took', 460), ('gave', 454), ('did', 330), ('sent', 325)]
+VBG [('being', 1358), ('king', 808), ('having', 661), ('according', 247), ('making', 166), ('taking', 152), ('coming', 109), ('giving', 87), ('seeing', 83), ('going', 82)]
+VBN [('been', 1221), ('made', 708), ('called', 490), ('taken', 396), ('given', 320), ('done', 307), ('received', 217), ('come', 171), ('slain', 158), ('known', 149)]
+VBP [('are', 1136), ('have', 1069), ('do', 501), ('say', 61), ('am', 57), ('know', 42), ('make', 37), ('believe', 32), ('hold', 28), ('thereof', 26)]
+VBZ [('is', 2536), ('has', 863), ('says', 152), ('does', 95), ('seems', 70), ('lies', 34), ('follows', 31), ('holds', 30), ('means', 28), ('gives', 27)]
+Similar Words To: king
+Ratio to full text: 1.3567432858771442
+Similar Words To: queen
+Ratio to full text: 0.03197990402714813
+Similar Words To: army
+Ratio to full text: 0.1577454333359845
+Similar Words To: church
+Ratio to full text: 1.59684111455765
+Similar Words To: title
+Ratio to full text: 2.2155611230414376
+Ngrams
+[]
+
+
+
+The annals of Roger de Hoveden Volume 2.txt
+
+None
+NN [('king', 3162), ('bishop', 897), ('day', 802), ('archbishop', 672), ('lord', 610), ('year', 490), ('city', 408), ('i', 398), ('earl', 389), ('church', 375)]
+NNP [('England', 1268), ('France', 637), ('Saint', 546), ('Lord', 447), ('OF', 420), ('John', 414), ('God', 413), ('A.D.', 387), ('William', 384), ('York', 363)]
+NNPS [('Christians', 105), ('Romans', 77), ('Germans', 24), ('Eomans', 18), ('Pagans', 15), ('Pisans', 12), ('Mans', 10), ('Jews', 8), ('Gisors', 4), ('Illustrations', 4)]
+NNS [('men', 310), ('people', 301), ('bishops', 215), ('persons', 201), ('hands', 182), ('things', 172), ('others', 165), ('knights', 148), ('letters', 147), ('kings', 137)]
+JJ [('same', 961), ('other', 533), ('many', 324), ('own', 292), ('such', 274), ('great', 241), ('before-named', 157), ('following', 137), ('due', 125), ('first', 115)]
+JJR [('more', 89), ('greater', 44), ('better', 13), ('higher', 10), ('less', 9), ('longer', 9), ('brother', 7), ('younger', 6), ('lower', 5), ('worse', 4)]
+JJS [('most', 40), ('least', 27), ('greatest', 24), ('best', 23), ('lest', 22), ('highest', 9), ('est', 8), ('priest', 8), ('eldest', 7), ('manifest', 5)]
+VB [('be', 1806), ('have', 384), ('make', 248), ('give', 165), ('take', 148), ('come', 147), ('do', 142), ('receive', 100), ('hold', 94), ('say', 89)]
+VBD [('had', 1428), ('was', 1403), ('said', 1082), ('were', 649), ('came', 321), ('made', 318), ('gave', 255), ('took', 219), ('sent', 185), ('did', 141)]
+VBG [('being', 596), ('king', 226), ('having', 216), ('according', 115), ('making', 85), ('saying', 54), ('taking', 53), ('hearing', 48), ('coming', 47), ('giving', 45)]
+VBN [('been', 603), ('made', 398), ('called', 238), ('taken', 204), ('done', 185), ('given', 185), ('come', 102), ('received', 92), ('known', 88), ('set', 77)]
+VBP [('are', 594), ('have', 553), ('do', 256), ('know', 23), ('make', 21), ('am', 20), ('say', 19), ('thereof', 18), ('leave', 17), ('hold', 15)]
+VBZ [('is', 1230), ('has', 434), ('does', 44), ('says', 38), ('lies', 24), ('follows', 21), ('seems', 20), ('holds', 19), ('comes', 16), ('begins', 14)]
+Similar Words To: king
+Ratio to full text: 1.4194436123391523
+Similar Words To: queen
+Ratio to full text: 0.0398313258564558
+Similar Words To: army
+Ratio to full text: 0.11455620990121175
+Similar Words To: church
+Ratio to full text: 1.5906195581685494
+Similar Words To: title
+Ratio to full text: 2.3197632504995376
+Ngrams
+[]
+
+
+
+The ecclesiastical history of England and Normandy Volume 1.txt
+
+None
+NN [('church', 431), ('time', 404), ('son', 394), ('year', 387), ('man', 349), ('bishop', 302), ('apostle', 287), ('death', 282), ('king', 279), ('name', 272)]
+NNP [('St.', 906), ('Lord', 488), ('God', 465), ('Peter', 346), ('Jesus', 335), ('Christ', 307), ('John', 280), ('William', 241), ('Paul', 224), ('Evroult', 180)]
+NNPS [('Christians', 61), ('Jews', 50), ('Normans', 43), ('Acts', 27), ('Romans', 19), ('Persians', 15), ('Constans', 13), ('Eomans', 11), ('Catholics', 8), ('Norwegians', 7)]
+NNS [('years', 489), ('days', 270), ('people', 270), ('men', 205), ('months', 181), ('apostles', 169), ('monks', 149), ('bishops', 148), ('afterwards', 147), ('things', 133)]
+JJ [('great', 394), ('other', 346), ('many', 293), ('same', 210), ('own', 205), ('first', 203), ('—', 170), ('whole', 131), ('holy', 129), ('^', 124)]
+JJR [('more', 65), ('greater', 16), ('less', 9), ('younger', 9), ('better', 8), ('ye', 4), ('worse', 3), ('lower', 3), ('stronger', 3), ('earlier', 2)]
+JJS [('greatest', 33), ('most', 24), ('highest', 23), ('least', 19), ('best', 17), ('eldest', 13), ('priest', 11), ('lest', 8), ('manifest', 5), ('oldest', 5)]
+VB [('be', 769), ('have', 155), ('^', 117), (']', 109), ('take', 74), ('*', 69), ('say', 68), ('go', 58), ('give', 56), ('come', 55)]
+VBD [('was', 2628), ('had', 1004), ('were', 968), ('said', 272), ('took', 221), ('died', 215), ('came', 187), ('went', 181), ('made', 170), ('gave', 160)]
+VBG [('having', 347), ('being', 299), ('saying', 102), ('according', 71), ('taking', 54), ('following', 44), ('Having', 44), ('hearing', 41), ('making', 39), ('preaching', 34)]
+VBN [('been', 328), ('called', 151), ('made', 116), ('taken', 103), ('given', 96), ('baptized', 77), ('buried', 69), ('received', 68), ('brought', 67), ('blessed', 66)]
+VBP [('are', 358), ('have', 253), ('[', 52), ('am', 51), ('do', 36), ('say', 34), ('see', 24), ('find', 23), ('know', 18), ('^', 14)]
+VBZ [('is', 890), ('has', 186), ('appears', 53), ('says', 38), ('^', 35), ('seems', 25), ('does', 25), ('tells', 24), ('relates', 24), ('gives', 22)]
+Similar Words To: king
+Ratio to full text: 0.2972691086223667
+Similar Words To: queen
+Ratio to full text: 0.011718887330710906
+Similar Words To: army
+Ratio to full text: 0.10195431977718487
+Similar Words To: church
+Ratio to full text: 1.0754032273815706
+Similar Words To: title
+Ratio to full text: 0.8082125962413622
+Ngrams
+[]
+
+
+
+The ecclesiastical history of England and Normandy Volume 2.txt
+
+None
+NN [('king', 620), ('son', 541), ('church', 496), ('time', 428), ('bishop', 356), ('year', 321), ('death', 298), ('father', 273), ('duke', 247), ('count', 241)]
+NNP [('St.', 835), ('William', 615), ('God', 368), ('^', 354), ('England', 315), ('Evroult', 280), ('Hugh', 255), ('Lord', 251), ('Eobert', 250), ('Normandy', 247)]
+NNPS [('Normans', 94), ('Mans', 14), ('Eomans', 12), ('Christians', 11), ('Danes', 11), ('Barians', 6), ('Romans', 6), ('Authors', 5), ('Sciences', 5), ('Arabs', 5)]
+NNS [('years', 407), ('monks', 389), ('men', 198), ('people', 193), ('others', 178), ('afterwards', 174), ('sons', 172), ('arms', 121), ('vols', 105), ('things', 104)]
+JJ [('great', 463), ('other', 399), ('many', 323), ('own', 280), ('same', 221), ('first', 185), ('present', 155), ('such', 146), ('good', 131), ('holy', 109)]
+JJR [('more', 74), ('better', 20), ('younger', 11), ('less', 10), ('greater', 10), ('worse', 8), ('longer', 8), ('older', 6), ('larger', 4), ('wiser', 3)]
+JJS [('eldest', 50), ('most', 47), ('greatest', 36), ('best', 31), ('least', 28), ('highest', 27), ('priest', 15), ('youngest', 10), ('earliest', 8), ('earnest', 7)]
+VB [('be', 746), ('have', 257), ('^', 135), (']', 128), ('*', 96), ('take', 79), ('give', 79), ('See', 61), ('make', 60), ('do', 50)]
+VBD [('was', 2698), ('were', 985), ('had', 937), ('gave', 265), ('died', 203), ('made', 191), ('took', 176), ('said', 145), ('did', 145), ('became', 142)]
+VBG [('having', 321), ('being', 294), ('according', 77), ('making', 67), ('Having', 61), ('giving', 53), ('King', 49), ('taking', 45), ('king', 40), ('following', 33)]
+VBN [('been', 409), ('made', 181), ('given', 141), ('called', 116), ('taken', 103), ('received', 76), ('named', 73), ('mentioned', 69), ('known', 67), ('held', 64)]
+VBP [('have', 462), ('are', 398), ('am', 54), ('do', 49), ('[', 39), ('see', 34), ('know', 31), ('^', 28), ('give', 19), ('think', 16)]
+VBZ [('is', 916), ('has', 241), ('appears', 85), ('^', 52), ('says', 45), ('does', 34), ('gives', 31), ('afterwards', 22), ('stands', 22), ('seems', 16)]
+Similar Words To: king
+Ratio to full text: 0.4978149072676685
+Similar Words To: queen
+Ratio to full text: 0.02682192388295628
+Similar Words To: army
+Ratio to full text: 0.1698721845920564
+Similar Words To: church
+Ratio to full text: 0.9230318072254686
+Similar Words To: title
+Ratio to full text: 1.1722968865110757
+Ngrams
+[]
+
+
+
+Chronicle of Henry Huntingdon.txt
+
+None
+NN [('king', 1302), ('year', 619), ('son', 399), ('time', 369), ('bishop', 351), ('pub', 285), ('army', 270), ('reign', 252), ('death', 246), ('castle', 234)]
+NNP [('King', 480), ('OF', 439), ('Henry', 381), ('England', 296), ('God', 230), ('>', 211), ('Huntingdon', 202), ('William', 184), ('Stephen', 181), ('THE', 177)]
+NNPS [('Danes', 54), ('Christians', 28), ('Normans', 26), ('Mercians', 24), ('Picts', 23), ('Northumbrians', 17), ('Saxons', 16), ('Britons', 15), ('Romans', 11), ('Bomans', 7)]
+NNS [('years', 323), ('men', 242), ('people', 200), ('kings', 191), ('troops', 163), ('others', 163), ('afterwards', 127), ('vols', 120), ('arms', 92), ('castles', 80)]
+JJ [('great', 439), ('other', 258), ('same', 251), ('own', 239), ('many', 212), ('first', 152), ('whole', 121), ('present', 117), ('[', 113), ('such', 105)]
+JJR [('more', 74), ('greater', 29), ('better', 27), ('younger', 14), ('higher', 12), ('less', 10), ('longer', 8), ('larger', 7), ('earlier', 5), ('stronger', 4)]
+JJS [('most', 59), ('greatest', 55), ('highest', 32), ('best', 28), ('least', 16), ('bravest', 14), ('earliest', 11), ('nearest', 8), ('eldest', 8), ('lest', 8)]
+VB [('be', 668), ('[', 171), (']', 163), ('have', 158), ('^', 58), ('*', 54), ('make', 51), ('See', 47), ('give', 45), ('take', 32)]
+VBD [('was', 2520), ('were', 963), ('had', 912), ('made', 162), ('died', 153), ('took', 145), ('came', 144), ('reigned', 129), ('said', 119), ('gave', 103)]
+VBG [('being', 314), ('having', 235), ('king', 79), ('King', 71), ('following', 57), ('according', 50), ('making', 45), ('taking', 39), ('Having', 29), ('coming', 28)]
+VBN [('been', 353), ('called', 121), ('taken', 112), ('made', 92), ('given', 77), ('slain', 74), ('succeeded', 70), ('named', 53), ('mentioned', 52), ('done', 49)]
+VBP [('are', 358), ('have', 258), ('do', 22), ('^', 19), ('am', 18), ('find', 18), ('say', 17), ('see', 14), ('[', 13), ('>', 12)]
+VBZ [('is', 830), ('has', 186), ('says', 62), ('does', 46), ('appears', 40), ('gives', 32), ('seems', 28), ('calls', 27), ('Is', 22), ('*', 17)]
+Similar Words To: king
+Ratio to full text: 1.1320023873234706
+Similar Words To: queen
+Ratio to full text: 0.03359643956791026
+Similar Words To: army
+Ratio to full text: 0.3786516365418592
+Similar Words To: church
+Ratio to full text: 0.6833911060343159
+Similar Words To: title
+Ratio to full text: 1.5825899297636787
+Ngrams
+[]
+
+
+
+Anglo-Saxon Chronicle.txt
+
+None
+NN [('year', 1108), ('king', 783), ('land', 310), ('army', 288), ('son', 242), ('day', 234), ('earl', 157), ('brother', 131), ('man', 124), ('sea', 119)]
+NNP [('King', 510), ('A.D.', 313), ('Bishop', 292), ('Earl', 267), ('St.', 212), ('England', 192), ('Archbishop', 178), ('God', 140), ('London', 135), ('Abbot', 133)]
+NNPS [('Northumbrians', 50), ('Mercians', 42), ('Danes', 29), ('Romans', 17), ('States', 10), ('Picts', 10), ('Britons', 9), ('Normans', 8), ('Norwegians', 7), ('Christians', 6)]
+NNS [('men', 397), ('ships', 232), ('people', 153), ('afterwards', 148), ('years', 105), ('calends', 94), ('winters', 89), ('monks', 77), ('days', 71), ('others', 63)]
+JJ [('same', 344), ('many', 251), ('great', 190), ('other', 144), ('much', 113), ('good', 91), ('own', 67), ('full', 66), ('first', 64), ('large', 44)]
+JJR [('more', 56), ('worse', 15), ('greater', 11), ('less', 10), ('better', 9), ('larger', 5), ('higher', 5), ('younger', 5), ('heir', 3), ('longer', 3)]
+JJS [('best', 24), ('most', 19), ('west', 13), ('greatest', 9), ('least', 5), ('nighest', 4), ('eldest', 4), ('highest', 4), ('harvest', 3), ('worthiest', 3)]
+VB [('be', 304), ('have', 87), ('come', 55), ('go', 52), ('do', 34), ('let', 29), ('give', 29), ('meet', 22), ('See', 17), ('hold', 16)]
+VBD [('was', 1665), ('were', 541), ('went', 503), ('came', 462), ('had', 419), ('died', 327), ('took', 159), ('succeeded', 150), ('gave', 145), ('did', 140)]
+VBG [('king', 60), ('King', 45), ('having', 33), ('being', 29), ('concerning', 15), ('according', 14), ('saying', 13), ('burning', 10), ('fighting', 10), ('including', 9)]
+VBN [('called', 87), ('been', 71), ('consecrated', 65), ('slain', 62), ('done', 53), ('given', 48), ('buried', 46), ('made', 40), ('taken', 37), ('fought', 36)]
+VBP [('are', 76), ('have', 63), ('say', 17), ('do', 15), ('abode', 9), ('rode', 8), ('confirm', 8), ('give', 8), ('slain', 7), ('find', 7)]
+VBZ [('is', 274), ('has', 38), ('lies', 29), ('afterwards', 12), ('seems', 10), ('does', 9), ('says', 8), ('abode', 7), ('follows', 7), ('appears', 6)]
+Similar Words To: king
+Ratio to full text: 1.4342478387160724
+Similar Words To: queen
+Ratio to full text: 0.030167472569148156
+Similar Words To: army
+Ratio to full text: 0.3395995483498392
+Similar Words To: church
+Ratio to full text: 1.3661555434885666
+Similar Words To: title
+Ratio to full text: 2.1056895853265414
+Ngrams
+[]
+
+
+
+Hereward of Wake.txt
+
+None
+NN [('king', 99), ('man', 42), ('way', 36), ('day', 29), ('lord', 28), ('knight', 25), ('father', 25), ('time', 22), ('place', 21), ('brother', 18)]
+NNP [('Hereward', 176), ('Isle', 47), ('Earl', 13), ('How', 12), ('Robert', 10), ('Siward', 9), ('de', 9), ('Ely', 9), ('English', 8), ('England', 6)]
+NNS [('men', 110), ('soldiers', 30), ('enemies', 16), ('monks', 14), ('others', 13), ('things', 13), ('friends', 11), ('words', 11), ('hands', 10), ('knights', 10)]
+JJ [('many', 36), ('great', 31), ('certain', 26), ('such', 23), ('own', 21), ('other', 20), ('same', 15), ('few', 12), ('little', 11), ('military', 10)]
+JJR [('more', 8), ('better', 5), ('greater', 2), ('soldier', 2), ('less', 2), ('longer', 2), ('younger', 2), ('stronger', 2), ('worse', 1), ('fewer', 1)]
+JJS [('most', 6), ('greatest', 3), ('lest', 3), ('toughest', 2), ('least', 2), ('foremost', 2), ('forest', 1), ('best', 1), ('finest', 1), ('bravest', 1)]
+VB [('be', 86), ('have', 18), ('take', 13), ('go', 11), ('make', 10), ('see', 9), ('know', 9), ('fight', 7), ('tell', 7), ('receive', 7)]
+VBD [('had', 167), ('was', 156), ('were', 103), ('went', 23), ('came', 19), ('made', 13), ('did', 13), ('left', 12), ('took', 12), ('sent', 11)]
+VBG [('being', 22), ('having', 19), ('making', 12), ('going', 11), ('taking', 9), ('fighting', 8), ('saying', 7), ('declaring', 6), ('coming', 6), ('knowing', 5)]
+VBN [('been', 35), ('called', 17), ('taken', 14), ('heard', 13), ('seen', 13), ('brought', 10), ('made', 9), ('done', 9), ('distinguished', 9), ('given', 9)]
+VBP [('have', 16), ('are', 15), ("'ve", 11), ('round', 3), ("'re", 3), ('set', 2), ('hope', 2), ('leave', 2), ('say', 2), ('am', 2)]
+VBZ [('is', 28), ('has', 6), ("'s", 5), ('does', 4), ('overcame', 2), ('hung', 1), ('lands', 1), ('acquires', 1), ('crush', 1), ('ensures', 1)]
+Similar Words To: king
+Ratio to full text: 0.9767224236752837
+Similar Words To: queen
+Ratio to full text: 0.0
+Similar Words To: army
+Ratio to full text: 0.35091823605100014
+Similar Words To: church
+Ratio to full text: 0.19300502982805007
+Similar Words To: title
+Ratio to full text: 1.7955316411276172
+Ngrams
+[]
+
+
+
+William of Malmesbury's Chronicle of the Kings of England.txt
+
+None
+NN [('king', 982), ('time', 500), ('son', 362), ('man', 356), ('church', 318), ('death', 310), ('bishop', 300), ('kingdom', 263), ('year', 257), ('earl', 242)]
+NNP [('OF', 297), ('England', 288), ('God', 284), ('William', 238), ('St.', 231), ('*', 215), ('Henry', 167), ('>', 154), ('Lord', 153), ('Robert', 148)]
+NNPS [('Mercians', 51), ('Christians', 46), ('Normans', 37), ('Saxons', 32), ('Northumbrians', 29), ('Danes', 24), ('Romans', 22), ('Turks', 13), ('Londoners', 6), ('Angles', 6)]
+NNS [('years', 272), ('people', 219), ('others', 170), ('men', 161), ('bishops', 138), ('times', 126), ('persons', 119), ('things', 119), ('kings', 114), ('days', 106)]
+JJ [('many', 324), ('other', 318), ('such', 294), ('own', 271), ('great', 226), ('same', 212), ('first', 199), ('whole', 163), ('present', 127), ('long', 112)]
+JJR [('more', 165), ('greater', 45), ('less', 25), ('better', 19), ('longer', 13), ('higher', 12), ('larger', 9), ('earlier', 9), ('younger', 6), ('smaller', 5)]
+JJS [('most', 52), ('lest', 33), ('greatest', 26), ('best', 23), ('least', 21), ('dearest', 16), ('earliest', 11), ('highest', 11), ('nearest', 10), ('eldest', 7)]
+VB [('be', 1269), ('have', 260), ('give', 85), ('*', 75), ('make', 71), (']', 68), ('say', 67), ('let', 56), ('take', 53), ('do', 52)]
+VBD [('was', 2380), ('had', 1529), ('were', 787), ('said', 241), ('did', 194), ('came', 152), ('gave', 143), ('died', 126), ('made', 120), ('became', 99)]
+VBG [('being', 421), ('king', 179), ('having', 167), ('according', 76), ('ing', 56), ('giving', 51), ('making', 46), ('saying', 46), ('coming', 43), ('taking', 42)]
+VBN [('been', 415), ('called', 135), ('taken', 120), ('made', 119), ('given', 73), ('buried', 72), ('related', 67), ('done', 60), ('seen', 58), ('known', 57)]
+VBP [('have', 512), ('are', 323), ('do', 76), ('say', 53), ('am', 53), ('know', 34), ('think', 33), ('call', 26), ('give', 20), ('see', 20)]
+VBZ [('is', 939), ('has', 206), ('*', 42), ('seems', 38), ('says', 37), ('appears', 34), ('does', 30), ('lies', 26), ('relates', 19), ('remains', 18)]
+Similar Words To: king
+Ratio to full text: 0.7170359684758743
+Similar Words To: queen
+Ratio to full text: 0.015910561430677685
+Similar Words To: army
+Ratio to full text: 0.11597031442805066
+Similar Words To: church
+Ratio to full text: 0.7873960068026489
+Similar Words To: title
+Ratio to full text: 1.0879288338265607
+Ngrams
+[]
+
+
+
+Full The ecclesastical history of England.txt
+
+None
+NN [('ii', 2916), ('king', 2541), ('i', 2246), ('son', 2037), ('iii', 1909), ('bishop', 1608), ('church', 1467), ('iv', 1393), ('time', 1373), ('count', 1341)]
+NNP [('St.', 3556), ('William', 2274), ('Henry', 1316), ('^', 1280), ('God', 1232), ('Robert', 1227), ('Evroult', 1023), ('England', 982), ('de', 977), ('Lord', 971)]
+NNPS [('Christians', 311), ('Normans', 250), ('Mans', 93), ('Jews', 58), ('Pagans', 49), ('Acts', 35), ('Romans', 33), ('Turks', 32), ('Eomans', 32), ('Crusaders', 27)]
+NNS [('years', 1278), ('monks', 814), ('people', 794), ('men', 651), ('afterwards', 587), ('days', 547), ('others', 510), ('troops', 443), ('sons', 420), ('arms', 405)]
+JJ [('great', 1617), ('other', 1495), ('many', 1054), ('own', 837), ('same', 803), ('first', 750), ('—', 548), ('such', 447), ('^', 417), ('last', 411)]
+JJR [('more', 263), ('better', 61), ('greater', 56), ('less', 46), ('younger', 43), ('worse', 26), ('longer', 19), ('older', 15), ('lower', 14), ('earlier', 11)]
+JJS [('most', 134), ('eldest', 129), ('greatest', 111), ('least', 85), ('best', 85), ('highest', 73), ('lest', 40), ('priest', 34), ('youngest', 26), ('earliest', 18)]
+VB [('be', 2467), ('have', 836), ('^', 553), (']', 461), ('*', 339), ('take', 273), ('See', 270), ('give', 254), ('make', 226), ('see', 171)]
+VBD [('was', 9513), ('were', 3595), ('had', 3529), ('died', 925), ('made', 723), ('took', 709), ('gave', 705), ('said', 636), ('did', 537), ('came', 426)]
+VBG [('having', 1309), ('being', 1170), ('according', 284), ('making', 197), ('king', 197), ('taking', 191), ('Having', 182), ('King', 169), ('giving', 161), ('following', 154)]
+VBN [('been', 1446), ('made', 539), ('given', 529), ('called', 496), ('taken', 462), ('succeeded', 286), ('mentioned', 256), ('received', 255), ('named', 219), ('buried', 211)]
+VBP [('are', 1410), ('have', 1284), ('see', 296), ('am', 167), ('do', 142), ('find', 128), ('[', 124), ('know', 90), ('^', 79), ('say', 76)]
+VBZ [('is', 3754), ('has', 853), ('appears', 314), ('^', 173), ('gives', 153), ('says', 152), ('does', 127), ('makes', 118), ('takes', 105), ('seems', 82)]
+Similar Words To: king
+Ratio to full text: 0.48607781670662
+Similar Words To: queen
+Ratio to full text: 0.020744975106029875
+Similar Words To: army
+Ratio to full text: 0.20228655725613132
+Similar Words To: church
+Ratio to full text: 0.8964595242485711
+Similar Words To: title
+Ratio to full text: 1.078462105845473
+Ngrams
+[]
+
+
+

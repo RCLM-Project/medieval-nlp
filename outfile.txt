@@ -10,6 +10,12 @@ Num Words: 299859
 Num Sentences: 9286
 
 
+Bede's Ecclesiastical History.txt
+Num Characters: 1064050
+Num Words: 226726
+Num Sentences: 8225
+
+
 Florence of Worcester's Chroncile.txt
 Num Characters: 1226376
 Num Words: 255866
@@ -26,6 +32,12 @@ Master Wace's Chronicle of the Norman Conquest.txt
 Num Characters: 427033
 Num Words: 89524
 Num Sentences: 3870
+
+
+Bede's Ecclesastical History of England Gutenburg.txt
+Num Characters: 1066635
+Num Words: 224556
+Num Sentences: 7633
 
 
 Geoffery of Monmouth's British History.txt
@@ -94,4 +106,4 @@ Num Words: 1084600
 Num Sentences: 56207
 
 
-Total words: 4611946Total Sentences: 200794
+Total words: 5063228Total Sentences: 216652
